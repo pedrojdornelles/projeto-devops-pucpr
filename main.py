@@ -2,7 +2,7 @@ import datetime
 import platform
 
 def saudacao(nome):
-    return f"Olá, {nome}! Bem-vindo ao mundo DevOps 🚀"
+    return f"Olá, {nome}! Bem-vindo ao mundo DevOps"
 
 def mostrar_info_sistema():
     print("\n=== Informações do sistema ===")
@@ -16,7 +16,7 @@ def contagem():
         print(f"Número {i}")
 
 def main():
-    print("Hello, DevOps! 🚀")
+    print("Hello, DevOps!")
     print("Testando versionamento com GitHub Desktop - Versão Final.")
 
     # Saudação personalizada

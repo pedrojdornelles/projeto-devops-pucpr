@@ -2,7 +2,7 @@ import datetime
 import platform
 
 def saudacao(nome):
-    return f"Olá, {nome}! Bem-vindo ao mundo DevOps"
+    return f"Olá, {nome}! Bem-vindo ao mundo DevOps!"
 
 def mostrar_info_sistema():
     print("\n=== Informações do sistema ===")

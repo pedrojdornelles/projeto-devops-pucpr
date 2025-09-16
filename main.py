@@ -5,12 +5,13 @@ def saudacao(nome):
     return f"Olá, {nome}! Bem-vindo ao mundo DevOps"
 
 def main():
-    print("Hello, DevOps! 🚀")
+    print("Hello, DevOps!")
     print("Testando versionamento com GitHub Desktop.")
 
-    # Nova funcionalidade: saudação personalizada
+    # Agora a saudação é dinâmica
     print("\n=== Saudação personalizada ===")
-    print(saudacao("Pedro"))  # aqui você pode trocar pelo seu nome
+    nome = input("Digite seu nome: ")
+    print(saudacao(nome))
 
     # Informações do ambiente
     print("\n=== Informações do sistema ===")

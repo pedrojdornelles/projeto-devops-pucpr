@@ -1,9 +1,16 @@
 import datetime
 import platform
 
+def saudacao(nome):
+    return f"Olá, {nome}! Bem-vindo ao mundo DevOps"
+
 def main():
-    print("Hello, DevOps!")
+    print("Hello, DevOps! 🚀")
     print("Testando versionamento com GitHub Desktop.")
+
+    # Nova funcionalidade: saudação personalizada
+    print("\n=== Saudação personalizada ===")
+    print(saudacao("Pedro"))  # aqui você pode trocar pelo seu nome
 
     # Informações do ambiente
     print("\n=== Informações do sistema ===")

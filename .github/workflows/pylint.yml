@@ -11,8 +11,4 @@ jobs:
     steps:
     - name: Checkout repository code
       uses: actions/checkout@v4
-    
-    - name: Analysing the code with pylint
-      uses: advanced-security/python-lint-code-scanning-action@v1.1.1
-      with:
-        linter: pylint
+

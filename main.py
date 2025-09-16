@@ -1,12 +1,6 @@
-from fastapi import FastAPI
-import random
+def main():
+    print("Hello, DevOps!")
+    print("Testando versionamento com GitHub Desktop.")
 
-app = FastAPI()
-
-@app.get("/helloworld")
-async def root():
-    return {"message": "Hello World"}
-
-@app.get("/funcaoteste")
-async def funcaoteste():
-    return {"teste": True, "num_aleatorio": random.randint(1, 100)}
+if __name__ == "__main__":
+    main()

@@ -15,9 +15,14 @@ def contagem():
     for i in range(1, 10):
         print(f"Número {i}")
 
+def somar(a, b):
+    return a + b
+
+def eh_par(numero):
+    return numero % 2 == 0
+
 def main():
     print("Hello, DevOps!")
-    print("Testando versionamento com GitHub Desktop - Versão Final.")
 
     # Saudação personalizada
     print("\n=== Saudação personalizada ===")

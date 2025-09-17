@@ -12,7 +12,7 @@ def mostrar_info_sistema():
 
 def contagem():
     print("\n=== Contagem rápida ===")
-    for i in range(1, 8):
+    for i in range(1, 10):
         print(f"Número {i}")
 
 def main():
